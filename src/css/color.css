@@ -1,0 +1,37 @@
+.color {
+		flex-basis: calc(33.33333% - 2em);
+		height: fit-content;
+		box-shadow: 10px 10px 17px 1px rgba(0, 0, 0, 0.55);
+		margin: 1em;
+		background-color: #F1EDEE;
+}
+
+.header-wrapper {
+		display: flex;
+		flex-direction: row;
+		width: 90%;
+		margin: auto;
+		justify-content: space-between;
+		align-items: center;
+}
+
+.header-wrapper h2 {
+		text-transform: capitalize;
+}
+
+.header-wrapper button {
+		border: 1px solid silver;
+		border-radius: 10%;
+}
+
+.color-output {
+		height: 50px;
+		width: 100%;
+		box-sizing: border-box;
+		border: 1px solid silver;
+}
+
+.rating-wrapper {
+		width: 90%;
+		margin: auto;
+}

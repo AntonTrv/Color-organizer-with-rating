@@ -1,0 +1,16 @@
+p {
+  margin: auto;
+  padding: 0 0 5%;
+  color: #F1EDEE;
+}
+
+.color-list {
+  flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.rate {
+    color: black;
+}
